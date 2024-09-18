@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        section{
+            padding: 60px, 0;
+        }
+          .accordion{
+            width: 80%;
+            margin: 0 auto;
+        }
+        #a-head{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+        <a href="#intro" class="navbar-brand">
+            <span class="fw-bold text-secondary">
+                Net Ninja Pro - the Book
+            </span>
+        </a>
+        <!--Nav Toggler button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Nav-list item and-->
+    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#topic" class="nav-link link-secondary">About The Book</a>
+            </li>
+            <li class="nav-item">
+                <a href="#reviews" class="nav-link link-secondary">Review</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link link-secondary">Get in touch</a>
+            </li>
+            <li class="nav-item d-md-none">
+                <a href="#pricing" class="pay-link link-secondary">Pricing</a>
+            </li>
+           <li class="nav-item ms-2 d-none d-md-inline">
+            <a href="#pricing" class="btn btn-secondary">Purchase</a>
+           </li>
+        </ul>
+
+    </div>
+    </div>
+    </nav>
+ <!--Hero section-->
+   <section id="intro">
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+      <div class="col-md-5 text-center text-md-start">
+         <h1>
+          <div class="display-3 fw-bold">Black-belt</div>
+          <div class="display-4 text-muted fw-normal">Your coding skills</div>
+         </h1> 
+         <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+         <a href="#pricing" class="btn btn-secondary btn-lg">Buy now</a>
+      </div>
+      <div class="col-md-5 text-center d-none d-md-block">
+          <img src="asset/ebook-cover.png" class="img-fluid py-4">
+      </div>
+  </div>
+</div>
+</section>
+<!--Pricing section /cards-->
+<section id="pricing" class="bg-light mt-5">
+    <div class="container-lg mt-5 pb-5">
+        <div class="text-center pt-3">
+            <h2 class="mt-5">Pricing Plans</h2>
+            <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+        </div>
+       
+        <div class="row my-5 align-items-center justify-content-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0 shadow-sm mb-5 ">
+                    <div class="card-body text-center py-4">
+                        <h4 class="class-title">Starter Edition</h4>
+                        <p class="lead card-subtitle">eBook download only</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$49.00</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-lg btn-outline-primary mt-2">Buy now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-lg-4">
+                <div class="card shadow-sm border-1 mb-5">
+                    <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="class-title">Complete edition</h4>
+                            <p class="lead card-subtitle">ebook download & all updates</p>
+                            <p class="display-5 text-primary fw-bold">$18.99</p>
+                            <p class="card-text my-5 text-muted d-none d-lg-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit voluptatem tempore maxime possimus quas!
+                            </p>
+                            <a href="#" class="btn btn-lg btn-outline-primary">Buy now</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card  border-0 shadow-sm">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Ultimate Edition</h4>
+                        <p class="lead class-subtitle">E-book Download</p>
+                        <p class="display-5 my-4 text-primary fw-bold">$45.70</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-lg btn-outline-primary mt-2">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Topic at a glance-->
+<section id="topics">
+  <!--header-->  
+    <div class="container-md">
+        <div class="text-center">
+            <h2 class="pt-5">Inside the Book.....</h2>
+            <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+        </div>
+    </div>
+    <!--Displayed content-->
+
+    <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+            <img src="asset/kindle.png" class="img-fluid" alt="ebook" srcset="">
+        </div>
+
+<div class="col-lg-6 my-5">
+             <!--accordion-->
+        <div class="accordion border-0 shadow-sm " id="chapters">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1" id="a-head">Chapter 1 - Your First Web Page</button>
+                </h2>
+                <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores nesciunt a neque, dolor assumenda corporis veniam vitae nisi aspernatur qui iure corrupti explicabo error laborum voluptas voluptates tenetur totam quis nemo expedita. Pariatur enim consequuntur omnis excepturi dicta vero, voluptatum quasi corrupti reiciendis veritatis quia, numquam recusandae, officiis eos.</p>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2" aria-controls="chapter-2" aria-expanded="false">Chapter 2 - Mastering CSS</button>
+                </h2>
+                <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores nesciunt a neque, dolor assumenda corporis veniam vitae nisi aspernatur qui iure corrupti explicabo error laborum voluptas voluptates tenetur totam quis nemo expedita. Pariatur enim consequuntur omnis excepturi dicta vero, voluptatum quasi corrupti reiciendis veritatis quia, numquam recusandae, officiis eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam tenetur recusandae quas voluptas sapiente accusantium voluptatum exercitationem optio eligendi repudiandae facilis debitis delectus consectetur, sunt quia esse. Magni dolorum in quisquam ducimus ea voluptate sunt saepe ad mollitia. Mollitia minima repellendus eveniet cum libero excepturi nihil ab assumenda earum!</p>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3" aria-controls="chapter-3" aria-expanded="false">Chapter 3 - The Power of Javascript </button>
+                </h2>
+                <div id="chapter-3" class="accordion-collapse collapse " aria-labelledby="heading-3" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores nesciunt a neque, dolor assumenda corporis veniam vitae nisi aspernatur qui iure corrupti explicabo error laborum voluptas voluptates tenetur totam quis nemo expedita. Pariatur enim consequuntur omnis excepturi dicta vero, voluptatum quasi corrupti reiciendis veritatis quia, numquam recusandae, officiis eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam tenetur recusandae quas voluptas sapiente accusantium voluptatum exercitationem optio eligendi repudiandae facilis debitis delectus consectetur, sunt quia esse. Magni dolorum in quisquam ducimus ea voluptate sunt saepe ad mollitia. Mollitia minima repellendus eveniet cum libero excepturi nihil ab assumenda earum!</p>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4" aria-controls="chapter-4" aria-expanded="false">Chapter 4 - Database Management (DBM)</button>
+                </h2>
+                <div id="chapter-4" class="accordion-collapse collapse " aria-labelledby="heading-4" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores nesciunt a neque, dolor assumenda corporis veniam vitae nisi aspernatur qui iure corrupti explicabo error laborum voluptas voluptates tenetur totam quis nemo expedita. Pariatur enim consequuntur omnis excepturi dicta vero, voluptatum quasi corrupti reiciendis veritatis quia, numquam recusandae, officiis eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam tenetur recusandae quas voluptas sapiente accusantium voluptatum exercitationem optio eligendi repudiandae facilis debitis delectus consectetur, sunt quia esse. Magni dolorum in quisquam ducimus ea voluptate sunt saepe ad mollitia. Mollitia minima repellendus eveniet cum libero excepturi nihil ab assumenda earum!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#chapter-5" aria-controls="chapter-5" aria-expanded="false">Chapter 5 - User Authentication</button>
+                </h2>
+                <div id="chapter-5" class="accordion-collapse collapse " aria-labelledby="heading-5" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores nesciunt a neque, dolor assumenda corporis veniam vitae nisi aspernatur qui iure corrupti explicabo error laborum voluptas voluptates tenetur totam quis nemo expedita. Pariatur enim consequuntur omnis excepturi dicta vero, voluptatum quasi corrupti reiciendis veritatis quia, numquam recusandae, officiis eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam tenetur recusandae quas voluptas sapiente accusantium voluptatum exercitationem optio eligendi repudiandae facilis debitis delectus consectetur, sunt quia esse. Magni dolorum in quisquam ducimus ea voluptate sunt saepe ad mollitia. Mollitia minima repellendus eveniet cum libero excepturi nihil ab assumenda earum!</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+   
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
