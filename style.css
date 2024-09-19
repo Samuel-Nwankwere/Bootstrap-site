@@ -1,11 +1,7 @@
-/*button{
-    display: flex;
+section{
+    padding: 60px, 0;
 }
-div{
-    background: yellow;
-    background-position: center;
-    background-size: cover;
-    padding: 40px;
-    border-radius: 80px;
-    text-align: center;
-}
+  .accordion{
+    width: 80%;
+    margin: 0 auto;
+}   
